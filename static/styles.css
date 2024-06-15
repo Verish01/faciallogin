@@ -1,0 +1,148 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.top-bar {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username-box {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar-header {
+  margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+  margin-top: 0;
+}
+
+.clear-history {
+  display: flex;
+  flex-direction: column;
+}
+
+.clear-history form {
+  margin-bottom: 10px;
+}
+
+.clear-history .btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.history-item {
+  background-color: #495057;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.history-item p {
+  margin: 0;
+}
+
+/* Main content styles */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sql-section {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.results {
+  margin-bottom: 20px;
+}
+
+.results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results th,
+.results td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.results th {
+  background-color: #f8f9fa;
+  text-align: left;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-group .btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-form {
+  display: flex;
+  gap: 10px;
+}
+
+.input-form input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.input-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Chart styles */
+#chart {
+  margin-top: 20px;
+}
